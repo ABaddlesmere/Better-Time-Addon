@@ -9,7 +9,7 @@ The time is presented in a 24 hour format. The bossbar will change how it looks 
 Better Time displays the current day the server is on. However, when running `/time set ...`, the day counter resets. Better Time comes with a day counter backup and restoration system.
 If a player runs a `/time set ...` command, Better Time will detect this and restore the world's day counter using the backup.
 
-The bossbar that displayers Better Time can be in one of 6 states due to weather display. These states are:
+The bossbar that displays Better Time can be in one of 6 states due to weather display. These states are:
 1. Daytime and Clear
 2. Daytime and Raining
 3. Daytime and Thundering
@@ -22,9 +22,11 @@ These change based on the current weather in the overworld.
 
 By default, Better Time is enabled for all players.
 
-To enable it, run `/trigger btrtime-enable`
+For a player to enable Better Time for themselves, run `/trigger btrtime-enable`
 
-To disable it, run `/trigger btrtime-disable`
+For a player to disable Better Time for themselves, run `/trigger btrtime-disable`
+
+> **Note** A player can run these command without any permissions
 
 ### Clear weather, daytime
 ![Better Time Clear weather, Daytime](https://i.imgur.com/NMSFhoG.png)
