@@ -3,7 +3,7 @@
 ##_bt-constX > Constant to use in maths
 ##_bt-regX  > A register for maths
 
-scoreboard objecttives add btSB
+scoreboard objecttives add btSB dummy
 scoreboard players set _bt-track btSB 0
 scoreboard players set _bt-day btSB 0
 scoreboard players set _bt-oldDay btSB 0
