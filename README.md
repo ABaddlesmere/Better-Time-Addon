@@ -1,5 +1,7 @@
 # Better Time Datapack
 
+
+
 Better Time displays the current minecraft time in a more human-friendly way. It uses a bossbar to display the day number, time of day and weather.
 
 The time is presented in a 24 hour format. The bossbar will change how it looks depending on whether the player can sleep or not.
@@ -32,3 +34,24 @@ To disable it, run `/trigger btrtime-disable`
 
 ### Thunder weather, nightting
 ![Better Time Thunder weather, Nighttime](https://imgbox.com/X3YayWDj)
+
+## Requirements Notice
+This datapack requires some permissions to setup, and then to run.
+
+### To run the setup function (`/function better_time:private/setup`), you must need:
+
+Singleplayer: `Cheats`
+
+Multiplayer: `Player OP permission of at least level 2` `Function Permission Level of at least 2 (Defaults to 2)`
+
+### When the datapack is running, you must need:
+
+Singleplayer: `none`
+
+Multiplayer: `Function Permission Level of at least 2 (Defaults to 2)`
+
+## Setting Up and running
+
+To setup the datapack, you need to meet the requirements above. Once they are met, you run `/function better_time:private/setup`. **This only needs to be run once at installation time**.
+
+From there on, the datapack will run itself, easy as that!
