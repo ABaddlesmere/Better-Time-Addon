@@ -2,6 +2,6 @@
 
 time add 1d
 
-execute store result score _bt-day addonsGlobal run time query day
+execute store result score _bt-day btSB run time query day
 
-execute if score _bt-day addonsGlobal < _bt-oldDay addonsGlobal run function better_time:private/ref_day
+execute if score _bt-day btSB < _bt-oldDay btSB run function better_time:private/ref_day

@@ -3,15 +3,15 @@
 ##_bt-constX > Constant to use in maths
 ##_bt-regX  > A register for maths
 
-
-scoreboard players set _bt-track addonsGlobal 0
-scoreboard players set _bt-day addonsGlobal 0
-scoreboard players set _bt-oldDay addonsGlobal 0
-scoreboard players set _bt-const0 addonsGlobal 1000
-scoreboard players set _bt-const1 addonsGlobal 6
-scoreboard players set _bt-const2 addonsGlobal 12544
-scoreboard players set _bt-reg0 addonsGlobal 0
-scoreboard players set _bt-reg1 addonsGlobal 0
+scoreboard objecttives add btSB
+scoreboard players set _bt-track btSB 0
+scoreboard players set _bt-day btSB 0
+scoreboard players set _bt-oldDay btSB 0
+scoreboard players set _bt-const0 btSB 1000
+scoreboard players set _bt-const1 btSB 6
+scoreboard players set _bt-const2 btSB 12544
+scoreboard players set _bt-reg0 btSB 0
+scoreboard players set _bt-reg1 btSB 0
 
 scoreboard objectives add btrtime-disable trigger
 scoreboard objectives add btrtime-enable trigger
