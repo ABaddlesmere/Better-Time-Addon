@@ -19,5 +19,5 @@ scoreboard objectives add btrtime-enable trigger
 
 bossbar add better_time:main "NONE"
 bossbar set better_time:main name [{"text":"Better Time Update","color":"#af128"},{"text":" | ","color":"dark_red"},{"text":"Waiting for update...(50s)","color":"#42b7ff"}]
-bossbar set better_time:main players @a[tag=seeTimeBar]
+bossbar set better_time:main players @a[tag=btSTB]
 bossbar set better_time:main max 12544
