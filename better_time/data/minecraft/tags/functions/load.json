@@ -1,0 +1,7 @@
+{
+    "values": [
+        "npcs:load",
+        "terrain_gen:load",
+        "debug:load"
+    ]
+}
