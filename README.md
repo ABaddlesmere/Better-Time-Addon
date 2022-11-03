@@ -27,13 +27,13 @@ To enable it, run `/trigger btrtime-enable`
 To disable it, run `/trigger btrtime-disable`
 
 ### Clear weather, daytime
-![Better Time Clear weather, Daytime](https://imgbox.com/G5WiwKZ7)
+![Better Time Clear weather, Daytime](https://i.imgur.com/NMSFhoG.png)
 
 ### Rainy weather, daytime
-![Better Time Rainy weather, Daytime](https://imgbox.com/J4A2GZZz)
+![Better Time Rainy weather, Daytime](https://i.imgur.com/hoKkPoa.png)
 
 ### Thunder weather, nightting
-![Better Time Thunder weather, Nighttime](https://imgbox.com/X3YayWDj)
+![Better Time Thunder weather, Nighttime](https://i.imgur.com/5PWZiv2.png)
 
 ## Requirements Notice
 This datapack requires some permissions to setup, and then to run.
