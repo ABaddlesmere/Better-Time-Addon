@@ -23,3 +23,12 @@ By default, Better Time is enabled for all players.
 To enable it, run `/trigger btrtime-enable`
 
 To disable it, run `/trigger btrtime-disable`
+
+### Clear weather, daytime
+![Better Time Clear weather, Daytime](https://imgbox.com/G5WiwKZ7)
+
+### Rainy weather, daytime
+![Better Time Rainy weather, Daytime](https://imgbox.com/J4A2GZZz)
+
+### Thunder weather, nightting
+![Better Time Thunder weather, Nighttime](https://imgbox.com/X3YayWDj)
