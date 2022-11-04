@@ -29,16 +29,16 @@ execute if score _bt-day btSB < _bt-oldDay btSB run function better_time:private
 
 execute if score _bt-day btSB > _bt-oldDay btSB store result score _bt-oldDay btSB run scoreboard players get _bt-day btSB
 
-scoreboard players operation _bt-reg1 btSB = _bt-track btSB
+scoreboard players operation _bt-reg0 btSB = _bt-track btSB
 
 ##Change max value for bossbar to better reflect sleeping times
 execute if score _bt-track btSB < _bt-const2 btSB run bossbar set better_time:main max 12544
 execute if score _bt-track btSB >= _bt-const2 btSB run bossbar set better_time:main max 11456
 
 ##Changes the value in the bossbar depending on the time of day (12000+ will remove 12000 from the current day time to have bossbar progress from 0 to max)
-execute if score _bt-track btSB >= _bt-const2 btSB run scoreboard players operation _bt-reg1 btSB -= _bt-const2 btSB
+execute if score _bt-track btSB >= _bt-const2 btSB run scoreboard players operation _bt-reg0 btSB -= _bt-const2 btSB
 
-execute store result bossbar better_time:main value run scoreboard players get _bt-reg1 btSB
+execute store result bossbar better_time:main value run scoreboard players get _bt-reg0 btSB
 
 ##Display Time (24h)
 scoreboard players operation _bt-reg0 btSB = _bt-track btSB

@@ -11,7 +11,6 @@ scoreboard players set _bt-const0 btSB 1000
 scoreboard players set _bt-const1 btSB 6
 scoreboard players set _bt-const2 btSB 12544
 scoreboard players set _bt-reg0 btSB 0
-scoreboard players set _bt-reg1 btSB 0
 
 scoreboard objectives add btrtime-disable trigger
 scoreboard objectives add btrtime-enable trigger
