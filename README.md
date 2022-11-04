@@ -54,6 +54,26 @@ Multiplayer: `Function Permission Level of at least 2 (Defaults to 2)`
 
 ## Setting Up and running
 
-To setup the datapack, you need to meet the requirements above. Once they are met, you run `/function better_time:private/setup`. **This only needs to be run once at installation time**.
+First, download the datapack. Then put it in your datapacks folder. You will need to extract the datapack if you downloaded it as a ZIP. Make sure the directory matches what is below:
+```
+mySave
+ |
+ | -datapacks
+     |
+     | -better_time (Folder, NOT ZIP file)
+         |
+         | -pack.mcmeta
+         | -data
+             |
+             | -better_time
+             |   |
+             |   | -...
+             |
+             | -minecraft
+                 |
+                 | -...
+```
+
+To setup the datapack in-game, you need to meet the requirements above. Once they are met, you run `/function better_time:private/setup`. **This only needs to be run once at installation time**.
 
 From there on, the datapack will run itself, easy as that!
