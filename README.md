@@ -1,6 +1,8 @@
 # Better Time Datapack
 
-
+Tested Versions
+---
+1.17.x, 1.18.x, 1.19.x
 
 Better Time displays the current minecraft time in a more human-friendly way. It uses a bossbar to display the day number, time of day and weather.
 
