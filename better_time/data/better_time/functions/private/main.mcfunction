@@ -2,23 +2,23 @@
 execute if entity @a[tag=!btSTB, tag=!btHTB] run tag @a[tag=!btSTB, tag=!btHTB] add btSTB
 
 ##Player triggers
-execute if entity @a[tag=btSTB,scores={btrtime-enable=1..}] run tellraw @a[tag=btSTB,scores={btrtime-enable=1..}] {"text":"Error: You already have better time enabled!","color":"dark_red"}
+execute if entity @a[tag=btSTB,scores={enable-time-gui=1..}] run tellraw @a[tag=btSTB,scores={enable-time-gui=1..}] {"text":"Error: You already have better time enabled!","color":"dark_red"}
 
-execute if entity @a[tag=!btSTB,scores={btrtime-disable=1..}] run tellraw @a[tag=!btSTB,scores={btrtime-disable=1..}] {"text":"Error: Better time is already disabled!","color":"dark_red"}
+execute if entity @a[tag=!btSTB,scores={disable-time-gui=1..}] run tellraw @a[tag=!btSTB,scores={disable-time-gui=1..}] {"text":"Error: Better time is already disabled!","color":"dark_red"}
 
-tag @a[tag=btHTB, tag=!btSTB, scores={btrtime-enable=1..}] add btSTB
-tag @a[tag=btHTB, tag=btSTB, scores={btrtime-enable=1..}] remove btHTB
+tag @a[tag=btHTB, tag=!btSTB, scores={enable-time-gui=1..}] add btSTB
+tag @a[tag=btHTB, tag=btSTB, scores={enable-time-gui=1..}] remove btHTB
 
-tag @a[tag=btSTB, tag=!btHTB, scores={btrtime-disable=1..}] add btHTB
-tag @a[tag=btSTB, tag=btHTB, scores={btrtime-disable=1..}] remove btSTB
+tag @a[tag=btSTB, tag=!btHTB, scores={disable-time-gui=1..}] add btHTB
+tag @a[tag=btSTB, tag=btHTB, scores={disable-time-gui=1..}] remove btSTB
 
 bossbar set better_time:main players @a[tag=btSTB]
 
-scoreboard players set @a btrtime-enable 0
-scoreboard players set @a btrtime-disable 0
+scoreboard players set @a enable-time-gui 0
+scoreboard players set @a disable-time-gui 0
 
-scoreboard players enable @a btrtime-enable
-scoreboard players enable @a btrtime-disable
+scoreboard players enable @a enable-time-gui
+scoreboard players enable @a disable-time-gui
 
 ##Collect current time data and reformat days if necessary
 execute store result score _bt-track btSB run time query daytime

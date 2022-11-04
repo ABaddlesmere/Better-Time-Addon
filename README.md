@@ -22,9 +22,9 @@ These change based on the current weather in the overworld.
 
 By default, Better Time is enabled for all players.
 
-For a player to enable Better Time for themselves, run `/trigger btrtime-enable`
+For a player to enable Better Time for themselves, run `/trigger enable-time-gui`
 
-For a player to disable Better Time for themselves, run `/trigger btrtime-disable`
+For a player to disable Better Time for themselves, run `/trigger disable-time-gui`
 
 > **Note** A player can run these command without any permissions
 

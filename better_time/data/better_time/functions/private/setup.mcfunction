@@ -12,8 +12,8 @@ scoreboard players set _bt-const1 btSB 6
 scoreboard players set _bt-const2 btSB 12544
 scoreboard players set _bt-reg0 btSB 0
 
-scoreboard objectives add btrtime-disable trigger
-scoreboard objectives add btrtime-enable trigger
+scoreboard objectives add disable-time-gui trigger
+scoreboard objectives add enable-time-gui trigger
 
 
 bossbar add better_time:main "NONE"
