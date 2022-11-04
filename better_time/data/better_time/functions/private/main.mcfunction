@@ -2,9 +2,9 @@
 execute if entity @a[tag=!btSTB, tag=!btHTB] run tag @a[tag=!btSTB, tag=!btHTB] add btSTB
 
 ##Player triggers
-execute if entity @a[tag=btSTB,scores={enable-time-gui=1..}] run tellraw @a[tag=btSTB,scores={enable-time-gui=1..}] {"text":"Error: You already have better time enabled!","color":"dark_red"}
+execute if entity @a[tag=btSTB,scores={enable-time-gui=1..}] run tellraw @a[tag=btSTB,scores={enable-time-gui=1..}] {"text":"Error: Better Time is already enabled for you!","color":"dark_red"}
 
-execute if entity @a[tag=!btSTB,scores={disable-time-gui=1..}] run tellraw @a[tag=!btSTB,scores={disable-time-gui=1..}] {"text":"Error: Better time is already disabled!","color":"dark_red"}
+execute if entity @a[tag=!btSTB,scores={disable-time-gui=1..}] run tellraw @a[tag=!btSTB,scores={disable-time-gui=1..}] {"text":"Error: Better Time is already disabled for you!","color":"dark_red"}
 
 tag @a[tag=btHTB, tag=!btSTB, scores={enable-time-gui=1..}] add btSTB
 tag @a[tag=btHTB, tag=btSTB, scores={enable-time-gui=1..}] remove btHTB
