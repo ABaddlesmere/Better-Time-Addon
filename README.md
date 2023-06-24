@@ -2,7 +2,7 @@
 
 Tested Versions
 ---
-1.17.x, 1.18.x, 1.19.x
+1.17.x, 1.18.x, 1.19.x, 1.20.x
 
 Better Time displays the current minecraft time in a more human-friendly way. It uses a bossbar to display the day number, time of day and weather.
 
@@ -28,7 +28,7 @@ For a player to enable Better Time for themselves, run `/trigger enable-time-gui
 
 For a player to disable Better Time for themselves, run `/trigger disable-time-gui`
 
-> **Note** A player can run these command without any permissions
+> **Note** A player can run these commands without any permissions
 
 ### Clear weather, daytime
 ![Better Time Clear weather, Daytime](https://i.imgur.com/NMSFhoG.png)
@@ -36,7 +36,7 @@ For a player to disable Better Time for themselves, run `/trigger disable-time-g
 ### Rainy weather, daytime
 ![Better Time Rainy weather, Daytime](https://i.imgur.com/hoKkPoa.png)
 
-### Thunder weather, nightting
+### Thunder weather, nighttime
 ![Better Time Thunder weather, Nighttime](https://i.imgur.com/5PWZiv2.png)
 
 ## Requirements Notice
@@ -58,7 +58,7 @@ Multiplayer: `Function Permission Level of at least 2 (Defaults to 2)`
 
 First, download the datapack. Then put it in your datapacks folder. You will need to extract the datapack if you downloaded it as a ZIP. Make sure the directory matches what is below:
 ```
-mySave
+myWorld
  |
  | -datapacks
      |
