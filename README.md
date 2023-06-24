@@ -17,7 +17,7 @@ The bossbar that displays Better Time can be in one of 6 states due to weather d
 3. Daytime and Thundering
 4. Nighttime and Clear
 5. Nighttime and Raining
-6. Nightting and Thundering
+6. Nighttime and Thundering
 
 These change based on the current weather in the overworld.
 
